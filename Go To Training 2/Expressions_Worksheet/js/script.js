@@ -10,9 +10,7 @@ var humanYears = 1;
 var humanYears = prompt("To Calculate Sparky\'s Age \nPlease enter Sparky\'s age in human years:");
 //Calculation formula for the conversion
 var conversion = dogYears * humanYears;
-//Calculated total
-alert(conversion);
-//print out the output of Sparky's age
+//Calculated total and print out the output of Sparky's age
 console.log(conversion);
 
 //Slice of Pie Part 1
@@ -27,8 +25,20 @@ var pizzaOrder = prompt("To Calculate the number of pizza slices per person \nPl
 var peopleParty = prompt("Please enter the number of people at the party");
 
 //calculation of the number of slices multiply the number of pizzas ordered by the number of slices per pizza and divide that number by the people
-var slices = alert((pizzaOrder * slicesPizza)/peopleParty);
+var slices = (pizzaOrder * slicesPizza)/peopleParty;
 
-//Print out of the number of pizza slices per person at the party
+//Calculated total and print out of the number of pizza slices per person at the party
 console.log(slices);
-//print out in the console says "undefined"; I do not know how to debug this problem.
+
+
+//Slice of Pie Part II
+
+//Definition of Left overs for Sparky
+var sparkyLeft = pizzaOrder * slicesPizza;
+
+//Left overs calculation: using the % to find the remainder which gives Sparky slices
+var sparkySlices = sparkyLeft % peopleParty;
+
+//Calculated total
+//Print out of the number of slices Sparky receives
+console.log(sparkySlices);
