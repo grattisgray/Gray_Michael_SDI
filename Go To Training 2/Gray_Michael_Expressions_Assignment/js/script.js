@@ -39,8 +39,8 @@ var testAvg = ((testScore / 3) * 3);//tests are 75% of the grade
 
 var finalAvg = ((testAvg + quizAvg) / 4) //Must multiply by 4 because test are 75% of the grade
 
-var result = "Grade average is" + " " + finalAvg;
+var result = "Grade average is" + " " + finalAvg; //given grade result
 
-alert(result);
+alert(result);//grade average given
 
-console.log(result);
+console.log(result);//print out of the grade average
