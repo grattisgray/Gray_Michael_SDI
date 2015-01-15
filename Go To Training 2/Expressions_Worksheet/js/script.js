@@ -13,6 +13,8 @@ var conversion = dogYears * humanYears;
 //Calculated total and print out the output of Sparky's age
 console.log(conversion);
 
+
+
 //Slice of Pie Part 1
 
 // Definition of slices per pizza
