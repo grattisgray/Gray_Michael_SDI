@@ -14,6 +14,7 @@ var conversion = dogYears * humanYears;
 var age = "Sparky is" + " " + conversion + " " + "in human years.";
 //Calculated total and print out the output of Sparky's age
 console.log(age);
+alert(age);
 
 
 //Slice of Pie Part 1
@@ -34,6 +35,7 @@ var totalSlices = "Every guest would receive" + " " + slices + " " + "slices a p
 
 //Calculated total and print out of the number of pizza slices per person at the party
 console.log(totalSlices);
+alert(totalSlices);
 
 
 //Slice of Pie Part II
@@ -49,3 +51,4 @@ var result = "Sparky would receive" + " " + sparkySlices + " " + "slices.";
 //Calculated total
 //Print out of the number of slices Sparky receives
 console.log(result);
+alert(result);
