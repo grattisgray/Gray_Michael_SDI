@@ -54,6 +54,11 @@ var futureAge = Number(age) + Number(yearMore);
 
 console.log(futureAge);
 
+//Create a final out text string variable
+var finalOutput = "You will be "+futureAge+" in "+yearMore+" years.";
+console.log(finalOutput);
+alert(finalOutput);
+
 var a = Number("40");
 console.log(a);
 
