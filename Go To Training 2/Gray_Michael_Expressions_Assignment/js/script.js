@@ -1,4 +1,9 @@
-// Michael Gray 1/15/15 Expressions Assignment
+/*
+Michael Gray
+SDI Section #3
+1/15/15
+Expressions Assignment
+ */
 
 //Calculating the Average of a grade
 
