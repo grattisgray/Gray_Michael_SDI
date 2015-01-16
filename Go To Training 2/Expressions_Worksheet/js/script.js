@@ -10,9 +10,10 @@ var humanYears = 1;
 var humanYears = prompt("To Calculate Sparky\'s Age \nPlease enter Sparky\'s age in human years:");
 //Calculation formula for the conversion
 var conversion = dogYears * humanYears;
-//Calculated total and print out the output of Sparky's age
-console.log(conversion);
 
+var age = "Sparky is" + " " + conversion + " " + "in human years.";
+//Calculated total and print out the output of Sparky's age
+console.log(age);
 
 
 //Slice of Pie Part 1
@@ -21,16 +22,18 @@ console.log(conversion);
 var slicesPizza = 8;
 
 // Needed user input of how many pizzas have been ordered.
-var pizzaOrder = prompt("To Calculate the number of pizza slices per person \nPlease enter the number of pizzas ordered");
+var pizzaOrder = prompt("To Calculate the number of pizza slices per person \nPlease enter the number of pizzas ordered:");
 
 // Number of People at this party needs to be defined.
-var peopleParty = prompt("Please enter the number of people at the party");
+var peopleParty = prompt("Please enter the number of people at the party:");
 
 //calculation of the number of slices multiply the number of pizzas ordered by the number of slices per pizza and divide that number by the people
 var slices = (pizzaOrder * slicesPizza)/peopleParty;
 
+var totalSlices = "Every guest would receive" + " " + slices + " " + "slices a piece.";
+
 //Calculated total and print out of the number of pizza slices per person at the party
-console.log(slices);
+console.log(totalSlices);
 
 
 //Slice of Pie Part II
@@ -41,6 +44,8 @@ var sparkyLeft = pizzaOrder * slicesPizza;
 //Left overs calculation: using the % to find the remainder which gives Sparky slices
 var sparkySlices = sparkyLeft % peopleParty;
 
+var result = "Sparky would receive" + " " + sparkySlices + " " + "slices.";
+
 //Calculated total
 //Print out of the number of slices Sparky receives
-console.log(sparkySlices);
+console.log(result);
