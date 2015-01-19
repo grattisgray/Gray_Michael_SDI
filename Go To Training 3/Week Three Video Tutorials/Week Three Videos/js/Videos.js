@@ -99,20 +99,17 @@ inequality - uses the != operator. - "is not the same as" - a!=b
     They compare pairs of relational expressions.
     The comparison results in TRUE or FALSE.
     and && =
+    or operator - represent by the symbol || - requires at least ONE of the pairs to be true for the whole pair to be true
+    not operator - 
  */
 
-var budget = 300;
+var budget = 100;
 var iPhonePrice = 199.99;
-var payCheck = 200;
+var wonLottery = true;
 
 //if the price of the phone is less than our budget AND if our paycheck is over 300
-if(iPhonePrice < budget) {
+if(iPhonePrice < budget || wonLottery){
     console.log("We can buy the phone!");
-}else{
-    console.log("No phone for you!");
-}
-if(payCheck > 300) {
-    console.log("We can buy the phone!")
 }else{
     console.log("No phone for you!");
 }
