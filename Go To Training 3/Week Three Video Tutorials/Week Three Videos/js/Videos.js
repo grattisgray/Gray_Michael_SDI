@@ -19,7 +19,7 @@
 
 //Conditonal Logic
 
-var oldEnough = true;
+var oldEnough = false;
 
 //If the child is old enough, print to the console "you can ride!"
 if(oldEnough){
