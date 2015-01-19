@@ -37,8 +37,8 @@
       <file leaf-file-name="Videos.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/Videos.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.92727274" vertical-offset="510" max-vertical-offset="1380">
-              <caret line="85" column="1" selection-start-line="85" selection-start-column="1" selection-end-line="85" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.8545455" vertical-offset="600" max-vertical-offset="1485">
+              <caret line="87" column="25" selection-start-line="87" selection-start-column="25" selection-end-line="87" selection-end-column="25" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -232,8 +232,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/Videos.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.92727274" vertical-offset="510" max-vertical-offset="1380">
-          <caret line="85" column="1" selection-start-line="85" selection-start-column="1" selection-end-line="85" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.8545455" vertical-offset="600" max-vertical-offset="1485">
+          <caret line="87" column="25" selection-start-line="87" selection-start-column="25" selection-end-line="87" selection-end-column="25" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

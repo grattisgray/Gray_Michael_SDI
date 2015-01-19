@@ -84,3 +84,11 @@ if(kidHeight >= minHeight){
     //sorry you have growing to do
     console.log("Sorry kid, you've got some growing to do first!");
 }
+
+//Relational Operators - comparing two values (only two variables) (True or False)
+// equality ==  strict equality === inequality !=
+// greater than > / less than < / greater than or equal to >= / less than or equal to >=
+// ("the same as" ==  =  a==b ) (a=b "changes the value of a")
+//strict eqaulity - uses the === operator. - "the same value" and "the same type" / 6 == "6" is true while 6 === "6" is false
+// === is better than ==
+// inequality - uses the != operator. - "is not the same as" - a!=b
