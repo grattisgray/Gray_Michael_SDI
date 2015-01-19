@@ -14,7 +14,7 @@
 //    goToTheMovies();
 //}
 
-//Basic Conditional Statement
+//Basic Conditional Statement Video
 //Decision - making for the Machine
 
 //Conditonal Logic
@@ -29,7 +29,7 @@ if(oldEnough){
 console.log("What comes after.");
 
 
-//Relational Expressions
+//Relational Expressions Video
 
 var kidHeight = 47;
 var minHeight = 48;
@@ -43,7 +43,7 @@ if(kidHeight + sneakerLift > minHeight){
 }
 */
 
-//If and else
+//If and else Video
 //Choosing between two blocks of code
 /*
 var kidHeight = 36;
@@ -62,10 +62,10 @@ if(kidHeight >= minHeight){
 /*
  */
 
-//Else If
+//Else If Video
 //Choosing between three or more blocks of code
 //always requires a condition
-
+/*
 var kidHeight = 46;
 var minHeight = 48;
 var wParentHeight = 45; //the height of the kid with the parent
@@ -84,11 +84,36 @@ if(kidHeight >= minHeight){
     //sorry you have growing to do
     console.log("Sorry kid, you've got some growing to do first!");
 }
+/*
+//Relational Operators Video - comparing two values (only two variables) (True or False)
+equality ==  strict equality === inequality !=
+greater than > / less than < / greater than or equal to >= / less than or equal to >=
+("the same as" ==  =  a==b ) (a=b "changes the value of a")
+strict eqaulity - uses the === operator. - "the same value" and "the same type" / 6 == "6" is true while 6 === "6" is false
+=== is better than ==
+inequality - uses the != operator. - "is not the same as" - a!=b
 
-//Relational Operators - comparing two values (only two variables) (True or False)
-// equality ==  strict equality === inequality !=
-// greater than > / less than < / greater than or equal to >= / less than or equal to >=
-// ("the same as" ==  =  a==b ) (a=b "changes the value of a")
-//strict eqaulity - uses the === operator. - "the same value" and "the same type" / 6 == "6" is true while 6 === "6" is false
-// === is better than ==
-// inequality - uses the != operator. - "is not the same as" - a!=b
+//Logical Operators Video
+// What are they used for?
+    They compare two TRUE or FALSE values.
+    They compare pairs of relational expressions.
+    The comparison results in TRUE or FALSE.
+    and && =
+ */
+
+var budget = 300;
+var iPhonePrice = 199.99;
+var payCheck = 200;
+
+//if the price of the phone is less than our budget AND if our paycheck is over 300
+if(iPhonePrice < budget) {
+    console.log("We can buy the phone!");
+}else{
+    console.log("No phone for you!");
+}
+if(payCheck > 300) {
+    console.log("We can buy the phone!")
+}else{
+    console.log("No phone for you!");
+}
+
