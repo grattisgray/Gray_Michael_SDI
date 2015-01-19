@@ -100,7 +100,12 @@ inequality - uses the != operator. - "is not the same as" - a!=b
     The comparison results in TRUE or FALSE.
     and && =
     or operator - represent by the symbol || - requires at least ONE of the pairs to be true for the whole pair to be true
-    not operator - 
+    not operator - represented by the symbol ! - flips the value - true becomes false - false becomes true - is not used for comparison - if more than one are true, the result is FALSE. Not operator negates. - Turns TRUE to FALSE and vice versa - a!=b the sames as !(a===b) a<b the same as !(a<b)
+    common misconceptions - how do we see if a,b, and c all have the same value?
+    a === b && b === c; not a === b === c
+    relational operators go in between PAIRS of objects.
+    Logical Operators go in between Relational Expressions or Boolean values.
+    Always work in pairs.
  */
 
 var budget = 100;
