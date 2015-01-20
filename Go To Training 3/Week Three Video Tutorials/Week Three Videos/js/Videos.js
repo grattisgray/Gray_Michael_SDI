@@ -106,8 +106,11 @@ inequality - uses the != operator. - "is not the same as" - a!=b
     relational operators go in between PAIRS of objects.
     Logical Operators go in between Relational Expressions or Boolean values.
     Always work in pairs.
- */
 
+    Ternaries Video - Decision making on one line
+    represented by a ?
+ */
+/*
 var budget = 100;
 var iPhonePrice = 199.99;
 var wonLottery = true;
@@ -119,3 +122,40 @@ if(iPhonePrice < budget || wonLottery){
     console.log("No phone for you!");
 }
 
+Ternaries Operators Video - Decision making on one line
+represented by a ?
+
+
+if(condition) {
+    do if true;
+}else{
+    do if false;
+}
+(condition) ? do if true : do if false;
+*/
+
+var gpa = 48;
+/*
+//if the gpa is over the min 2.0 score, the student can graduate
+if( gpa > 2.0) {
+    console.log("You can graduate!");
+}else{
+    console.log("Gpa is too low!");
+}
+
+(gpa > 2.0) ? console.log("You can graduate!") : console.log("GPA too Low!");
+*/
+
+var age = 11;
+var book;
+
+//If teh child is under 10, they get Green Eggs and Ham, otherwise they get The Time Machine
+if(age < 10) {
+    book = "Green Eggs and Ham";
+}else{
+    book = "The Time Machine";
+}
+console.log(book);
+// these equal the same but less code:
+book = (age < 10) ? "Green Eggs and Ham" : "The Time Machine";
+console.log(book);
