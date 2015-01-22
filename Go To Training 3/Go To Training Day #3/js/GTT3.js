@@ -5,6 +5,7 @@
  * GoTo Training Day #3
  */
 
+    /*
 //Check how many pears are in a fruit bowl
 //Create our "Fruit bowl"
 //Use an array, variable that holds multiple variables
@@ -37,7 +38,7 @@ if(condition){
 }
 
  */
-
+/*
 if(bowlOfFruit[0] === "peach"   ){
     //Count the fruit as a peach
     //add one to the total num of pears
@@ -148,4 +149,31 @@ if(userYesNo != "yes" && userYesNo !="no"){
     userYesNo=prompt("Only type in yeas or no");
 }
 
+*/
 
+//Givens
+//Grade in percent
+var grade = 53
+
+//Test what grade
+// A - 100 - 90
+// B - 89 - 80
+// C - 79 - 70
+// D - 69 - 60
+// F - 59 and under
+
+if(grade >= 90){
+    console.log("You have a " + grade + "%, which means you have earned a(n) A in the class");
+}else if(grade>=80){
+    console.log("You have a " + grade + "%, which means you have earned a(n) B in the class");
+}else if(grade>=70){
+    console.log("You have a " + grade + "%, which means you have earned a(n) C in the class");
+}else if(grade>=60){
+    console.log("You have a " + grade + "%, which means you have earned a(n) D in the class");
+}else{
+    console.log("You have a " + grade + "%, which means you have earned a(n) F in the class");
+}
+
+//Use ternary in simple if else statements
+
+(4<7)? console.log("4 is less than 7"): console.log("7 is less than 8");
