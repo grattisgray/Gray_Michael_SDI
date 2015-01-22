@@ -75,3 +75,12 @@ if(bowlOfFruit[2] === "pear"   ){
     //Code to run if not a pear
     console.log("This fruit is not a pear.");
 }
+
+//Loop - repetitive code
+//For LOOP
+// for(initialize a variable; condition to test; increment of change){ code to run each time that the condition is true }
+
+for(var i=0; i<5; i++) {
+
+    console.log("Inside the loop");
+}
