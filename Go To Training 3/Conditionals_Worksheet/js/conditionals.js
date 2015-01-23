@@ -41,7 +41,7 @@
  }
 
  */
-
+/*
 //Group 2: Multiple Results
 //Check the Login
 
@@ -63,6 +63,30 @@ if(userName == "GrattisGray" && userPassword == "Gray14"){
     alert("Password does not match our records.");
     console.log("Password does not match our records.");
 }
+*/
 
+//Group 3: Multiple Conditions
+//MovieTicket Price
 
+//Define the variables and user prompt
+var age = prompt("What is your age?");
+var discount = 7.00 + " dollars";
+var regular = 12.00 + " dollars";
 
+//Check the age of user to determine if they would receive a discount.
+if(age < 10 || age >= 55){
+    console.log("The ticket price is " + discount);
+//If users age is 10 or greater, but less than 55 they pay regular price.
+}else if(age <= 10 || age < 55){
+ console.log("The ticket price is " + regular);
+
+}
+//Define the time variable
+var time = prompt("What time is does the movie start?")
+//If the user purchases a ticker between the hours of 3 and 5 they receive a discount.
+if (time >= 3 + "PM" || time > 5 + "PM"){
+ console.log("The ticket price is " + discount);
+//If the use purchases a ticket for any other time they must pay the regular price.
+}else if(regular){
+ console.log("The ticket price is " + regular);
+}
