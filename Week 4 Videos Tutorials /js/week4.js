@@ -87,7 +87,7 @@ function rectArea(w, h) { //w=20, h=30
 
 //Anonymous Functions - called closures
 //Are created as the code is in run
-
+/*
 var rectArea = function(w, h) { //defining the function
 //code that runs the function
     var area = w * h;
@@ -97,3 +97,4 @@ var rectArea = function(w, h) { //defining the function
 var b = rectArea(20, 30); //invoking the function
 
 console.log(b); //printing the function to the console
+*/
