@@ -28,3 +28,6 @@ function accountChange(account,purchase,deposit){
 }
 //Print out of the the account total for that day.
 console.log("Your current account balance is $ " + current);
+
+var interest = .05
+
