@@ -100,7 +100,7 @@ console.log(b); //printing the function to the console
 */
 
 //Loop Videos
-
+/*
 console.log("---While loops---");
 
 var b = 10; //sets up the index
@@ -115,20 +115,31 @@ console.log("---Do while loop---");
 var c = 10;
 
 do{
-    console.log(c + " bottles of root beer on the wall.")
+    console.log(c + " bottles of root beer on the wall.");
     c--; //Still runs no matter if the while is given.
 }
 while(c>0); //putting just 1 creates an infinity loop, not good for the computer.
 
+*/
+console.log("---For Loops---");
+
+//for(var i = 10 -setup index; i > 0 checks the condition; i-- or i++ -decrements or increments the index){
+for(var i = 10; i > 0; i--){
+    console.log(i + " bottles of root beer on the wall.");
+}
+//shortened version of do while and while loops
 
 
+console.log("---breaks in loops---");
+//break - breaks the code out of the loop
 
 
-
-
-
-
-
+for(var w = 1; w < 400; w++){
+    if(w == 21) {
+        break;
+    }
+    console.log(w + " guests in a attendance.");
+}
 
 
 
