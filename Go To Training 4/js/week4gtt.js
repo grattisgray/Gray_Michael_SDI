@@ -34,3 +34,24 @@ while(min==="" || isNaN(min)){
     //re-prompt the user
     min = prompt("Please do not leave blank and only use numbers!\nPlease type in min value:");
 }
+
+//Prompt the user for a max number
+//do while loop
+
+var max = prompt("Let's find a random number between two numbers. \nPlease enter a maximum number:");
+
+//It always runs at least once.
+/*
+do{
+    code to run
+
+} while(condition to test)
+
+*/
+
+do{
+    //runs at least once
+    //prompt the user
+    var max = prompt("Please enter a maximum value:");
+} while(max==="" || isNaN(max));
+console.log(max);
