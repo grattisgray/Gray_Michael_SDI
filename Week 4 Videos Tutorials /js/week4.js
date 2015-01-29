@@ -98,3 +98,40 @@ var b = rectArea(20, 30); //invoking the function
 
 console.log(b); //printing the function to the console
 */
+
+//Loop Videos
+
+console.log("---While loops---");
+
+var b = 10; //sets up the index
+
+while(b>0){ //checks the index
+    console.log(b + " bottles of root beer on the wall.");
+    b--; //increments or decrements the index
+}
+
+console.log("---Do while loop---");
+
+var c = 10;
+
+do{
+    console.log(c + " bottles of root beer on the wall.")
+    c--; //Still runs no matter if the while is given.
+}
+while(c>0); //putting just 1 creates an infinity loop, not good for the computer.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
