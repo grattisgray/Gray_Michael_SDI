@@ -88,3 +88,26 @@ console.log(results);
 for(var i = 0; i<15; i++){
     console.log(randomizr(min,max));
 }
+
+//Validate specific words?
+//Ask a user a yes or no question
+var happy= prompt("Are you happy today? Please answer yes or no:");
+happy = happy.toLowerCase();
+
+//capitalization matters!
+//Change the text string to all lower case!
+
+
+
+while(happy != "yes" && happy != "no"){
+
+    //re-prompt
+    happy = prompt("Only type in yes or no. Are you happy?");
+
+}
+
+var textOnly = prompt("Type in your name:");
+
+while(!isNaN(textOnly)){
+    textOnly = prompt("Please only use text no numbers!");
+}
