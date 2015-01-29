@@ -38,8 +38,6 @@ while(min==="" || isNaN(min)){
 //Prompt the user for a max number
 //do while loop
 
-var max = prompt("Let's find a random number between two numbers. \nPlease enter a maximum number:");
-
 //It always runs at least once.
 /*
 do{
@@ -55,3 +53,23 @@ do{
     var max = prompt("Please enter a maximum value:");
 } while(max==="" || isNaN(max));
 console.log(max);
+
+/*
+Function functionName(Parameters){
+    code goes in here
+}
+
+ */
+
+//Create a function that will give us a random number
+function randomizr(minNum, maxNum){
+
+    //Math.random() * (maxNum - minNum) + min number
+    var randomNumber = Math.round( Math.random() * (maxNum - minNum) + Number(minNum));
+    console.log(randomNumber);
+}
+
+//Function call - starts the function running!
+//Put in the arguments to send into the function
+randomizr(min,max);
+
