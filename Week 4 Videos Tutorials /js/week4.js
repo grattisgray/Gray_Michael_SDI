@@ -135,7 +135,7 @@ console.log("---breaks in loops---");
 
 
 for(var w = 1; w < 400; w++){
-    if(w == 21) {
+    if(w == 41) {
         break;
     }
     console.log(w + " guests in a attendance.");
