@@ -75,4 +75,15 @@ var rounded = q.toFixed(2);
 //Alerting the user to the account balance.
     alert("Your current account balance with quarterly interest is $" + rounded + "!");
 
+/*
+ Testing of the values: Did three tests to check to make sure the equation is processing properly.
+ I typed in 1000 for the current account balance.
+ For how must I spent for each month I put in 500, and for the total deposited each month I plugged in 500. Which game me a total of $3316.19.
 
+ I typed in 100 for the current account balance.
+ For how must I spent for each month I put in 0, and for the total deposited each month I plugged in 0. Which game me a total of $331.62.
+
+ I typed in 50 for the current account balance.
+ For how must I spent for each month I put in 10, and for the total deposited each month I plugged in 20. Which game me a total of $198.97.
+
+ */
