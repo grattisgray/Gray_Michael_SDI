@@ -10,39 +10,36 @@
 Check account balance
 Deduct purchases
 Add deposits
-Calculate quarterly interest on your account
+Calculate quarterly interest on an account.
  */
 
 //Defining of the variables
-/*
-for(var account = 10; account <= 100; account ++) {
-    account = prompt("What is your current account balance?");
-    console.log(account)
-}
-for(var purchase = 10; purchase <= 0; purchase ++) {
-    purchase = prompt("How much do you spend each month?");
-    console.log(purchase)
-}
-for(var deposit = 10; deposit <= 0; deposit ++) {
-    deposit = prompt("How much do you deposit each month?");
-    console.log(deposit)
-}
-*/
-
-
+//Get user's information about account balance
 var account = prompt("What is your current account balance?");
-
+//While loop to receive accurate totals
 while (account <0){
-    console.log(account);
+    //account balance must be greater than 0
     account = prompt("Invalid account balance, Please re-enter your account balance.");
 }
+
+//print out of the account total before purchases, deposits, or interest.
+console.log(account);
+
+//Get user's information about spending using a for loop
 for (var purchase = prompt("How much do you spend each month?"); purchase <0; purchase = prompt("Invalid purchase amount.")){
-    console.log(purchase);
+
 }
 
+//Print out of the purchases made
+console.log(purchase);
+
+//Get user's information about their deposits using a for loop
 for (var deposit = prompt("How much do you deposit each month?"); deposit <0; deposit = prompt("Invalid deposit amount.")){
-    console.log(deposit);
+
 }
+
+//Print out of the purchases made
+console.log(deposit);
 
 //arguments
 var current = accountChange(account,purchase,deposit);
@@ -54,26 +51,28 @@ function accountChange(account,purchase,deposit){
 //Print out of the the account total for that day.
 console.log("Your current account balance is $" + current);
 
-
+//Anonymous function that produces the user's quarterly statement.
 var quarterly = function(jan,feb,mar) {
+    //Defined interest per month
     var interest = .05;
+    //Equation for find the first months account balance including purchases, deposits and interest
     var jan = Math.pow(interest / 4 + 1, 4) * current;
+    //Equation for find the second months account balance including purchases, deposits and interest
     var feb = Math.pow(interest / 4 + 1, 4) * jan;
+    //Equation for find the third months account balance including purchases, deposits and interest
     var mar = Math.pow(interest / 4 + 1, 4) * feb;
-
+    //Get the value out of the function into the main code
     return Number(jan) + Number(feb) + Number(mar);
-}
+};
 
-var a = quarterly(account,purchase,deposit);
-    console.log("Your current account balance with quarterly interest is $" + Math.round(a));
-    alert("Your current account balance with quarterly interest is $" + Math.round(a * Math.pow(10, 2)) / Math.pow(10, 2));
+//Invoke the function to produce the user's quarterly statement.
+//Quarterly + the arguments (account,purchase,deposit)
+var q = quarterly(account,purchase,deposit);
+//Variable to round off the dollar amount to the nearest cent.
+var rounded = q.toFixed(2);
+//Print and alert for the user's account total plus interest.
+    console.log("Your current account balance with quarterly interest is $" + rounded + "!");
+//Alerting the user to the account balance.
+    alert("Your current account balance with quarterly interest is $" + rounded + "!");
 
 
-/*
-var compInterest = Number(current) * Number(interest) + Number(account);
-*/
-
-for(var i = 1; i > 100; i ++){
-    console.log("Quarterly account balance plus interest equals $" + compInterest);
-    i++;
-}
